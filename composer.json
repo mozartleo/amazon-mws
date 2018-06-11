@@ -1,0 +1,21 @@
+{
+  "name": "web-papers/amazon-mws",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artem Morozov",
+      "email": "artem.morozov@icloud.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "sabre/xml": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebPapers\\Amazon\\": "src/"
+    }
+  }
+}
